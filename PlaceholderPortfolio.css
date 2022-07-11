@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #title, #subtitle, #my-projects, #conncect-with-me{
+    text-align: center;
+  }
+  
+  body {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC); 
+  }
+  
+  #get-to-know-me-header, #about-me-intro {
+    width: 1250px;
+    padding-left:100px;
+  }
+  
+  p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .my-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  
+  
+  #contact-links {
+    align-items: center;
+    justify-content: center;
+    position: center;
+    display: center;
+  }
